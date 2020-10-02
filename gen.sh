@@ -1,0 +1,1 @@
+ mono ../RTCOP/Tool/LayerCompiler.exe $(find . -type f -name *.lcpp -print) -r ./ -i ./ -t linux64 -e gcc -o Generated

@@ -1,0 +1,38 @@
+// Hello.lcpp
+#import_lh "Hello.lh"
+#include <ros/ros.h>
+#include <stdio.h>
+
+// base layer
+baselayer
+{
+	// constructor
+	Hello::Hello()
+	{
+	}
+
+	// base method
+	void Hello::Print()
+	{
+		ROS_INFO_STREAM("BaseClass");
+	}
+
+}
+
+layer English
+{
+	void Hello::Print()
+	{
+		ROS_INFO_STREAM("Hello World");
+	}
+
+}
+
+layer Japanese
+{
+	void Hello::Print()
+	{
+  	  ROS_INFO_STREAM("Kon-nichiwa sekai");
+	}
+
+}
