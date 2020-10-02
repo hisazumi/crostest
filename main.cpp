@@ -21,11 +21,13 @@ int main(int argc, char **argv) {
 	// activate EnglishLayer
 	RTCOP::activate(RTCOP::Generated::LayerID::English);
 	hello->Print();
+  rate.sleep();                   
 
 	// activate JapaneseLayer
 	RTCOP::deactivate(RTCOP::Generated::LayerID::English);
 	RTCOP::activate(RTCOP::Generated::LayerID::Japanese);
 	hello->Print();
+  rate.sleep();                   
 
 	// Helloのdelete
 	delete hello;
