@@ -15,6 +15,5 @@
 ## build
 ```
 cd crostest
-sh gen.sh  # for running layer compiler
 catkin build
 ```
