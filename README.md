@@ -6,8 +6,8 @@
 ## change to src directory
 > cd catkin_ws/src
 
-## clone RTCOP
-> git clone https://github.com/tanigawaikuta/RTCOP.git
+## clone RTCOP which published as a ROS package
+> git clone https://github.com/hisazumi/RTCOP-1/tree/feature-ros
 
 ## clone sample program
 > git clone https://github.com/hisazumi/crostest
